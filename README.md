@@ -28,3 +28,9 @@ Switched to branch 'description'
 git status,
 git add README.md
 git commit...
+
+Далее, чтобы предложить изначальным разработчикам свою ветку,
+мы ее сначала толкнем в свой форковый репозиторий командой `push`
+Команда git push выдаст в хелпе команду
+git push --set-upstream origin description
+С ее помощью мы и обновим свой форковый гитхабовский репозиторий
